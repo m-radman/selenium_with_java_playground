@@ -11,7 +11,6 @@ public class FrameTests extends BaseTests {
     public void testWysiwyg() {
         var editorPage = homePage.clickWysiwygEditor();
         editorPage.clearTextArea();
-        //need to wait before continues to set text
 
         String text1 = "hello";
         String text2 = "world";
